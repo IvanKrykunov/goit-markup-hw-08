@@ -79,19 +79,20 @@ body {
   color: #2196F3;
 }
 
-.logo-heder {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
-  margin-right: 93px;
+@media (min-width: 480px) {
+  .logo-heder {
+    font-family: "Raleway";
+    font-style: normal;
+    position: absolute;
+    width: 134px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+  }
 }
-
 .cection-advantages__list .cection-advantages__item + .cection-advantages__item {
   margin-left: 30px;
 }/*# sourceMappingURL=main.css.map */

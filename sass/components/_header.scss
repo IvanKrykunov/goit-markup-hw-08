@@ -1,12 +1,12 @@
 .header {
  
-    // border-bottom: 1px solid#ECECEC;
+    border-bottom: 1px solid#ECECEC;
     // position: fixed;
-    // width: 100%;
-    // top: 0%;
-    // left: 0%;
-    // background-color: var(--background-main-color);
-    // z-index: 1;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: var(--background-main-color);
+    z-index: 1;
   }
   .current::after{
     // content:"" ;
@@ -104,15 +104,19 @@
   .icon-smartphone:focus {
     // color: var(--accent-color);
   }
+  .logo-web{
+    color: #2196F3
+  }
   
   .logo-heder {
-    // font-family: 'Raleway';
-    // font-style: normal;
-    // font-weight: 700;
-    // font-size: 26px;
-    // line-height: 1.2;
-    // letter-spacing: 0.03em;
-    // color: var(--text-color);
-    // text-decoration-line: none;
-    // margin-right: 93px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    text-decoration-line: none;
+    margin-right: 93px;
+    
   }

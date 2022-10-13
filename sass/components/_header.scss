@@ -1,13 +1,19 @@
+
+@media  (min-width:480px) {
 .header {
+ width: 480px;
+ height: 60px;
+ background-color: var(--background-main-color);
  
-    border-bottom: 1px solid#ECECEC;
-    // position: fixed;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    background-color: var(--background-main-color);
-    z-index: 1;
+    // border-bottom: 1px solid#ECECEC;
+    // // position: fixed;
+    // width: 100%;
+    // top: 0%;
+    // left: 0%;
+    
+    // z-index: 1;
   }
+}
   .current::after{
     // content:"" ;
     // position: absolute;
@@ -113,8 +119,8 @@
     
   
   .logo-heder {
-    font-family: 'Raleway';
-    font-style: normal;
+    margin: 16px ;
+  
     // font-weight: 700;
     // font-size: 26px;
     // line-height: 1.2;
@@ -122,8 +128,8 @@
     // color: var(--text-color);
     // text-decoration-line: none;
     // margin-right: 93px;
-  
-      
+    font-family: 'Raleway';
+    font-style: normal;
     position: absolute;
     width: 134px;
     height: 28px;
@@ -132,10 +138,18 @@ font-size: 24px;
 line-height: 28px;
 letter-spacing: 0.03em;
 color: var( --primary-text-color);
-    
-
-    
-    
-    
+margin: 16px 15px;
+text-decoration: none;
+      
   }
 }
+
+.siti-links , .siti-nav {
+@media  (min-width:480px) {
+
+  display: none;
+}
+
+}
+
+

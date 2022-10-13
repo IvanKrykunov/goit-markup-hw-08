@@ -1,117 +1,118 @@
 .header {
-    border-bottom: 1px solid#ECECEC;
-    position: fixed;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    background-color: var(--background-main-color);
-    z-index: 1;
+ 
+    // border-bottom: 1px solid#ECECEC;
+    // position: fixed;
+    // width: 100%;
+    // top: 0%;
+    // left: 0%;
+    // background-color: var(--background-main-color);
+    // z-index: 1;
   }
   .current::after{
-    content:"" ;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    bottom: 0;
-    left: 0;
+    // content:"" ;
+    // position: absolute;
+    // display: block;
+    // width: 100%;
+    // height: 4px;
+    // bottom: 0;
+    // left: 0;
     
-    background-color:var(--accent-color);
-    border-radius: 2px;
+    // background-color:var(--accent-color);
+    // border-radius: 2px;
      
   }
   .li-current{
-    position: relative
+    // position: relative
     
   }
   .nav {
-    align-items: center;
-    display: flex;
+    // align-items: center;
+    // display: flex;
   }
   .ul-none .link.current {
-    color: var(--accent-color);
+    // color: var(--accent-color);
   }
   .container-nav {
-    display: flex;
+    // display: flex;
   }
   .siti-nav {
-    display: flex;
+    // display: flex;
     
   }
   .siti-links {
-    display: flex;
+    // display: flex;
   
-    margin-left: auto;
+    // margin-left: auto;
   }
   .siti-nav .item + .item {
-    margin-left: 50px;
+    // margin-left: 50px;
   }
   .siti-links .item + .item {
-    margin-left: 50px;
+    // margin-left: 50px;
   }
   
   .icon-smartphone {
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
+    // width: 10px;
+    // height: 16px;
+    // margin-right: 10px;
   }
   .icon-mail {
-    fill: var(--secondary-text-color);
+    // fill: var(--secondary-text-color);
   }
   .link {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-    text-decoration-line: none;
+    // transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    // display: block;
+    // padding-top: 32px;
+    // padding-bottom: 32px;
+    // font-weight: 500;
+    // font-size: 14px;
+    // line-height: 1.14;
+    // letter-spacing: 0.02em;
+    // color: var(--primary-text-color);
+    // text-decoration-line: none;
   }
   .icon-envelope,
   .icon-tell {
-    margin-right: 10px;
-    cursor: pointer;
+    // margin-right: 10px;
+    // cursor: pointer;
   }
   
   .links {
-    align-items: center;
-    display: inline-flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration-line: none;
-    color: var(--secondary-text-color);
+    // align-items: center;
+    // display: inline-flex;
+    // padding-top: 32px;
+    // padding-bottom: 32px;
+    // transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    // font-weight: 500;
+    // font-size: 14px;
+    // line-height: 1.14;
+    // letter-spacing: 0.02em;
+    // text-decoration-line: none;
+    // color: var(--secondary-text-color);
   }
   
   .link:hover,
   .link:focus {
-    color: var(--accent-color);
+    // color: var(--accent-color);
   }
   .links:hover,
   .links:focus {
-    color: var(--accent-color);
-    fill: var(--accent-color);
+    // color: var(--accent-color);
+    // fill: var(--accent-color);
   }
   .icon-smartphone:hover,
   .icon-smartphone:focus {
-    color: var(--accent-color);
+    // color: var(--accent-color);
   }
   
   .logo-heder {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: var(--text-color);
-    text-decoration-line: none;
-    margin-right: 93px;
+    // font-family: 'Raleway';
+    // font-style: normal;
+    // font-weight: 700;
+    // font-size: 26px;
+    // line-height: 1.2;
+    // letter-spacing: 0.03em;
+    // color: var(--text-color);
+    // text-decoration-line: none;
+    // margin-right: 93px;
   }

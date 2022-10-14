@@ -19,8 +19,21 @@
   padding-top: 10px;
   background-color: var(--background-main-color);
   border: none;
- 
+  @media  (min-width:768px) {
+    display: none;
   }
+  }
+  .menu-button .icon__close{
+    display: none;
+  }
+  .menu-button .is-open  .icon__close {
+    display: block;
+  }
+  .menu-button .is-open .icon-menu{
+    display: none;
+  }
+ 
+
 
   .current::after{
     // content:"" ;

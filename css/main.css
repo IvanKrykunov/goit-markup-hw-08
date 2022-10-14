@@ -48,11 +48,6 @@ body {
   }
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .h2-off {
   position: absolute;
   white-space: nowrap;
@@ -84,6 +79,23 @@ body {
   padding-top: 10px;
   background-color: var(--background-main-color);
   border: none;
+}
+@media (min-width: 768px) {
+  .header__menu {
+    display: none;
+  }
+}
+
+.menu-button .icon__close {
+  display: none;
+}
+
+.menu-button .is-open .icon__close {
+  display: block;
+}
+
+.menu-button .is-open .icon-menu {
+  display: none;
 }
 
 .logo-web {
@@ -166,6 +178,53 @@ body {
   display: none;
 }
 
-.cection-advantages__list .cection-advantages__item + .cection-advantages__item {
-  margin-left: 30px;
+.cection-advantages {
+  background: var(--background-main-color);
+  margin-top: 60px;
+}
+
+.cection-advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cection-advantages__background {
+  background-color: var(--background-secondary-color);
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 192.34px;
+  width: 450px;
+}
+
+.cection-advantages__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.cection-advantages__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.cection-advantages__paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+  color: var(--secondary-text-color);
+}
+
+.section-practice {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

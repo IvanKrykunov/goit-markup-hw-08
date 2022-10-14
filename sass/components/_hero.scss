@@ -1,27 +1,27 @@
 
+//  @media  (min-width:480px) 
 
- @media  (min-width:480px) {
 .section-One {
   
     background-color: var(--hero-backgound);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/background/fon.jpg');
-  
+    // background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    //   url('../images/background/fon.jpg');
+  background-image: url('../images/background/fon-tel.jpg');
     background-repeat: no-repeat;
     background-position: center;
   }
- }
-  @media  (min-width:480px) {
+ 
+  
   .container-hero {
     height: 400px;
-    width: 100%;
+    
     // padding-top: 200px;
     // padding-bottom: 200px;
     // text-align: center;
     // margin-left: auto;
     // margin-right: auto;
   }
-}
+
   .title-h1 {
     // width: 696px;
     // font-weight: 900;
@@ -30,25 +30,36 @@
     // text-align: center;
     // letter-spacing: 0.06em;
     // text-transform: uppercase;
-    // color: var(--background-main-color);
-    // margin-left: auto;
-    // margin-right: auto;
+   
     // margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    color: var(--background-main-color);
+    font-size: 26px;
+    line-height: 1.61;
+    text-align: center;
+    letter-spacing: 0.06em;
+   text-transform: uppercase;
+   padding-top: 118px;
   }
-  @media  (min-width:480px) {
+  
   .button-section1 {
     color: var(--background-main-color);
     background: var(--accent-color);
     border: 0;
     border-radius: 4px;
     width: 200px;
-    
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     padding: 10px 24px;
     text-align: center;
+    margin-top: 30px;
+    margin-left: 125px;
+    
+    
    
     
     // cursor: pointer;
@@ -57,7 +68,7 @@
     
     // transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
   }
-}
+
   .button-section1:hover,
   .button-section1:focus {
     // background-color: #188ce8;

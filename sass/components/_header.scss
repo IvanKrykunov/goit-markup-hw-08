@@ -4,8 +4,10 @@
 
  height: 60px;
  background-color: var(--background-main-color);
- 
-    // border-bottom: 1px solid#ECECEC;
+ border-bottom: 1px solid#ECECEC;
+ @media  (min-width:768px) {
+  height: 80px;
+}
     // // position: fixed;
     // width: 100%;
     // top: 0%;
@@ -14,11 +16,20 @@
     // z-index: 1;
   }
   .header__menu{
-  display: flex;
-  margin-left: auto;
-  padding-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: 100;
+    z-index: 999;
+    transform: translateX();
+
+  
+  // margin-left: auto;
+  // padding-top: 10px;
   background-color: var(--background-main-color);
   border: none;
+
   @media  (min-width:768px) {
     display: none;
   }
@@ -32,42 +43,57 @@
   .menu-button .is-open .icon-menu{
     display: none;
   }
+  .bloc-header{
+    margin-left: 88px;
+  }
  
 
 
   .current::after{
-    // content:"" ;
-    // position: absolute;
-    // display: block;
-    // width: 100%;
-    // height: 4px;
-    // bottom: 0;
-    // left: 0;
+    content:"" ;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
     
-    // background-color:var(--accent-color);
-    // border-radius: 2px;
+    background-color:var(--accent-color);
+    border-radius: 2px;
      
   }
   .li-current{
-    // position: relative
+    position: relative
     
   }
   .nav {
-    // align-items: center;
-    // display: flex;
+    align-items: center;
+    display: flex;
+    
   }
   .ul-none .link.current {
-    // color: var(--accent-color);
+    color: var(--accent-color);
   }
   .container-nav {
-    // display: flex;
+    display: flex;
   }
+  
+
+  
   .siti-nav {
-    // display: flex;
+    display: flex;
+    
+    // margin-left: 88px;
     
   }
   .siti-links {
-    // display: flex;
+    
+    display: flex;
+    display: block;margin-left: auto;
+    margin-top: 21px;
+    
+    
+    // margin-left: 96px;
   
     // margin-left: auto;
   }
@@ -75,94 +101,101 @@
     // margin-left: 50px;
   }
   .siti-links .item + .item {
+    
     // margin-left: 50px;
   }
   
   .icon-smartphone {
-    // width: 10px;
-    // height: 16px;
-    // margin-right: 10px;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
   }
   .icon-mail {
-    // fill: var(--secondary-text-color);
+    fill: var(--secondary-text-color);
   }
   .link {
-    // transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    // display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration-line: none;
     // padding-top: 32px;
     // padding-bottom: 32px;
-    // font-weight: 500;
-    // font-size: 14px;
-    // line-height: 1.14;
-    // letter-spacing: 0.02em;
-    // color: var(--primary-text-color);
-    // text-decoration-line: none;
   }
   .icon-envelope,
   .icon-tell {
-    // margin-right: 10px;
-    // cursor: pointer;
+    margin-right: 10px;
+    cursor: pointer;
   }
   
   .links {
-    // align-items: center;
-    // display: inline-flex;
-    // padding-top: 32px;
+    align-items: center;
+    display: inline-flex;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
+    color: var(--secondary-text-color);
+     // padding-top: 32px;
     // padding-bottom: 32px;
-    // transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    // font-weight: 500;
-    // font-size: 14px;
-    // line-height: 1.14;
-    // letter-spacing: 0.02em;
-    // text-decoration-line: none;
-    // color: var(--secondary-text-color);
   }
   
   .link:hover,
   .link:focus {
-    // color: var(--accent-color);
+    color: var(--accent-color);
   }
   .links:hover,
   .links:focus {
-    // color: var(--accent-color);
-    // fill: var(--accent-color);
+    color: var(--accent-color);
+    fill: var(--accent-color);
   }
   .icon-smartphone:hover,
   .icon-smartphone:focus {
-    // color: var(--accent-color);
+    color: var(--accent-color);
   }
 
   .logo-web{
     color: #2196F3
   }
 
-  .logo-heder {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+  .logo-heder { 
     letter-spacing: 0.03em;
     color: var(--text-color);
     text-decoration-line: none;
     margin-right: 93px;
     font-family: 'Raleway';
     font-style: normal;
-    position: absolute;
     width: 134px;
     height: 28px;
     font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-letter-spacing: 0.03em;
-color: var( --primary-text-color);
-margin: 16px 15px;
-text-decoration: none;
+   font-size: 24px;
+   line-height: 1.16;
+    color: var( --primary-text-color);
+    margin: 16px 15px;
+  text-decoration: none;
+
+@media screen and ( min-width: 767px)  {
+  
+  
+}
       
   }
 
  
 .siti-links , .siti-nav {
 
-  display: none;
+  @media screen and ( max-width: 767px)  {
+    display: none;
+    
+  }
+  
+
+
 }
 
 

@@ -6,25 +6,37 @@
 
 .cection-advantages__list {
   display: flex;
-  flex-wrap: wrap;
-  @media screen and (min-width:767px) {
+  flex-wrap: wrap;  @media screen and (min-width:767px) {
     
-    
+      
   }
  
 }
 
 .cection-advantages__list .cection-advantages__item + .cection-advantages__item {
-  // margin-left: 30px;
+  @media screen and (min-width:767px) {
+    // margin-left: 30px;
+    
+    
+    
+  }
+  
 }
 
 .cection-advantages__list .cection-advantages__item {
-  // width: 270px;
+  width: 450px;
+  @media screen and (min-width:767px) {
+    width: 354px;
+  }
+
+  @media screen and (min-width:1200px) {
+    width: 270px;
+    
+    
+  }
 }
 
  
-
-  
 
 .cection-advantages__background {
  
@@ -36,16 +48,18 @@
   padding: 25px 192.34px;
   @media screen and (min-width:767px) {
     width: 354px;
-    padding: 25px 144.34px;
-   
+    background-color: var(--background-secondary-color);
+     
   }
-  
+ 
   
 }
 
+ 
 .cection-advantages__icon {
   width: 70px;
   height: 70px;
+
   
 }
 

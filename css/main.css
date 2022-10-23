@@ -360,14 +360,19 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 .cection-advantages__background {
   background-color: var(--background-secondary-color);
   height: 120px;
+  width: 450px;
   border-radius: 4px;
   margin-bottom: 30px;
   padding: 25px 192.34px;
-  width: 450px;
+}
+@media screen and (min-width: 767px) {
+  .cection-advantages__background {
+    width: 354px;
+    padding: 25px 144.34px;
+  }
 }
 
 .cection-advantages__icon {
@@ -589,6 +594,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-top: 20px;
 }
 
 .svg-futer {
@@ -616,6 +625,10 @@ body {
   fill: var(--background-main-color);
 }
 
+.div-f {
+  padding-top: 60px;
+}
+
 .container-footer {
   text-align: center;
 }
@@ -625,6 +638,14 @@ body {
   background: var(--hero-backgound);
 }
 
+.address-futer {
+  margin-top: 20px;
+}
+
+.network {
+  margin-top: 60px;
+}
+
 .icon-ul {
   border-radius: 50px;
   background: rgba(255, 255, 255, 0.1);
@@ -632,6 +653,14 @@ body {
 
 .futer-h2 {
   color: var(--background-main-color);
+}
+
+.address {
+  font-style: inherit;
+}
+
+.contacts-link:not(:last-child) {
+  margin-bottom: 8px;
 }
 
 .address-k {
@@ -682,6 +711,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.16;
+  margin-top: 60px;
   color: var(--background-main-color);
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
@@ -717,6 +747,8 @@ body {
 }
 
 .p-form {
+  padding-top: 60px;
+  padding-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -733,6 +765,7 @@ body {
   height: 50px;
   margin-left: 12px;
   padding: 10px 28px;
+  margin-top: 20px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;

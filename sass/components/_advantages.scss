@@ -1,11 +1,17 @@
 .cection-advantages {
   background: var(--background-main-color);
   margin-top: 60px;
+
 }
 
 .cection-advantages__list {
   display: flex;
   flex-wrap: wrap;
+  @media screen and (min-width:767px) {
+    
+    
+  }
+ 
 }
 
 .cection-advantages__list .cection-advantages__item + .cection-advantages__item {
@@ -16,16 +22,24 @@
   // width: 270px;
 }
 
+ 
+
+  
+
 .cection-advantages__background {
  
   background-color: var(--background-secondary-color);
   height: 120px;
+  width: 450px;
   border-radius: 4px;
-  
-  
   margin-bottom: 30px;
   padding: 25px 192.34px;
-   width: 450px;
+  @media screen and (min-width:767px) {
+    width: 354px;
+    padding: 25px 144.34px;
+   
+  }
+  
   
 }
 

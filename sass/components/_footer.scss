@@ -24,6 +24,8 @@
   }
   .icon-futer {
     display: flex;
+    display: inline-flex;
+    padding-top: 20px;
     // padding-bottom: 0;
     // margin: 0;
   }
@@ -45,7 +47,9 @@
     background-color: var(--accent-color);
     fill: var(--background-main-color);
   }
-
+.div-f{
+  padding-top: 60px;
+}
   .container-footer {
    text-align: center;
     // display: flex;
@@ -53,13 +57,15 @@
     // padding-bottom: 60px;
   }
   .footer {
+    
     height: 603px;
     background: var(--hero-backgound);
   }
   .address-futer {
-    // margin-top: 20px;
+    margin-top: 20px;
   }
   .network {
+    margin-top: 60px;
     // width: 206px;
     // height: 80px;
   }
@@ -73,14 +79,15 @@
   }
   
   .address {
-    // font-style: inherit;
+    font-style: inherit;
   }
   .contacts-link:not(:last-child) {
-    // margin-bottom: 9px;
+    margin-bottom: 8px;
   }
   .address-k {
     // padding-bottom: 9px;
     font-weight: 400;
+    
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -119,6 +126,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 1.16;
+    margin-top: 60px;
     // font-size: 26px;
     // line-height: 31px;
     color: var(--background-main-color);
@@ -157,7 +165,8 @@
   
   
   .p-form{
-  //   padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -171,7 +180,7 @@
     height: 50px;
     margin-left: 12px;
     padding: 10px 28px;
-  
+  margin-top: 20px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;

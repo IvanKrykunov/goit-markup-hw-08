@@ -21,6 +21,8 @@ h6 {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -305,6 +307,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (min-width: 768px) {
+  .section-One {
+    background-image: url("../images/background/tablet.jpg");
+  }
+}
+@media (min-width: 1200px) {
+  .section-One {
+    background-image: url("../images/background/desktop.jpg");
+  }
+}
 
 .container-hero {
   height: 400px;
@@ -335,13 +347,19 @@ body {
   line-height: 1.87;
   padding: 10px 24px;
   text-align: center;
+  margin: auto;
+  display: block;
   margin-top: 30px;
-  margin-left: 125px;
   cursor: pointer;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media (min-width: 1200px) {
+  .button-section1 {
+    width: 216px;
+  }
 }
 
 .button-section1:hover,

@@ -735,7 +735,6 @@ input, textarea {
 
 .div-team {
   background-color: var(--background-secondary-color);
-  width: 480px;
 }
 
 .ul-team {
@@ -744,6 +743,10 @@ input, textarea {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -845,11 +848,6 @@ input, textarea {
   color: var(--secondary-text-color);
 }
 
-.img_team {
-  width: 450px;
-  height: 460px;
-}
-
 .customers__title {
   font-weight: 700;
   font-size: 28px;
@@ -876,10 +874,8 @@ input, textarea {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
+
 .customers__link {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

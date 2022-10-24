@@ -1,11 +1,12 @@
 .div-team {
     background-color: var(--background-secondary-color);
-    width: 480px;
+    // width: 480px;
   }
   .ul-team {
     display: flex;
     flex-wrap: wrap;
-  
+  gap: 30px;
+  justify-content: center;
     border-radius: 0px 0px 4px 4px;
   }
   .icon-social {
@@ -84,8 +85,8 @@
     color: var(--secondary-text-color);
   }
   .img_team{
-    width: 450px;
-    height: 460px;
+    // width: 450px;
+    // height: 460px;
   }
 
 

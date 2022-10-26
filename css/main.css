@@ -114,12 +114,12 @@ body {
   height: 100vh;
   padding: 32px;
   background-color: burlywood;
-  z-index: 6;
+  z-index: 9999999999;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
 }
 
-.menu-container .is-open {
+.is-open {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }

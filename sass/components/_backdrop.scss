@@ -1,8 +1,9 @@
 
  
 .backdrop{
+  position: absolute;
   z-index: 2;
-  position: fixed;
+  // position: fixed;
   right: 0%;
   bottom: 0%;
 

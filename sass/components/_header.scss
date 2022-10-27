@@ -19,12 +19,18 @@ display: flex;
     // z-index: 1;
   }
   .toggleMenu{
+    
   display: inline-flex;
   margin: 0;
   padding: 0;
   background-color: var(--background-main-color);
   border: none;
   & :hover {fill: var(--accent-color); }
+  @media screen and  (min-width:450px) {
+  
+  }
+
+  
   @media  (min-width:768px) {
    display: none;
     
@@ -122,11 +128,11 @@ color: var(--accent-color);
 
 .toggleMenu{
   position: absolute;
-   
     right: 25px;
     cursor: pointer;
     border: none;
     border-radius: 50%;
+   
     
 }
 .mobile-menu{

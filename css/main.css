@@ -1187,8 +1187,10 @@ input, textarea {
   }
 }
 
-.input-footer {
-  width: 352px;
+@media (min-width: 1200px) {
+  .input-footer {
+    width: 352px;
+  }
 }
 
 .footer {
@@ -1307,7 +1309,7 @@ input, textarea {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.03em;
-  width: 100%;
+  width: 358px;
   height: 50px;
   background-color: var(--hero-backgound);
   border: 1px solid rgba(255, 255, 255, 0.3);

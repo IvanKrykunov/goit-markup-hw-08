@@ -1187,6 +1187,10 @@ input, textarea {
   }
 }
 
+.input-footer {
+  width: 352px;
+}
+
 .footer {
   margin-top: 60px;
   height: 603px;

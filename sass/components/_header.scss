@@ -24,6 +24,12 @@ display: flex;
   padding: 0;
   background-color: var(--background-main-color);
   border: none;
+  & :hover {fill: var(--accent-color); }
+  @media  (min-width:768px) {
+   display: none;
+    
+    
+  }
 }
 .menu-container{
   

@@ -431,6 +431,13 @@ body {
     padding-bottom: 118px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero-bcg {
+    height: 400px;
+    padding-top: 200px;
+    padding-bottom: 280px;
+  }
+}
 @media screen and (max-width: 767px) {
   .hero-bcg {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background/backgroundmobile1x.jpg");

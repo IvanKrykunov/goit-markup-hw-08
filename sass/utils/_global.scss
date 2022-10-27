@@ -27,14 +27,11 @@ body {
   font-style: normal;
   color: var(--primary-text-color);
   background-color: var(--background-main-color);
-  position: fixed;
+  
   
   
 }
-  body.modal-open{
-    height: 100vh;
-    overflow-y: hidden;
-  }
+  
 .container {
     margin-left: auto;
     margin-right: auto;
